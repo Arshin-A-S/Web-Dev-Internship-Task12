@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Web App</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <main>
+        <section id="gallery-task">
+            <h2>Gallery</h2>
+            <div class="gallery-grid" id="gallery">
+                <img src="img/img1.jpg" alt="" class="thumb"/>
+                <img src="img/img2.jpg" alt="" class="thumb"/>
+                <img src="img/img3.jpg" alt="" class="thumb"/>
+                <img src="img/img4.jpg" alt="" class="thumb"/>
+            </div>
+
+            <div id="image-modal" class="modal">
+                <span class="close-btn">&times;</span>
+                <img id="modal-img" class="modal-content">
+                <div id="caption"></div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
